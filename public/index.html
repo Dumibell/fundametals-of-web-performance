@@ -69,16 +69,8 @@
 
       <section class="hero">
         <div class="illustration">
-          <img
-            class="desktop"
-            src="/assets/img/hero-desktop.png"
-            alt="Developer Stickers"
-          />
-          <img
-            class="mobile"
-            src="/assets/img/hero-mobile.png"
-            alt="Developer Stickers"
-          />
+          <link rel="preload" href="/assets/img/hero-desktop.png" as="image" />
+          <link rel="preload" href="/assets/img/hero-mobile.png" as="image" />
         </div>
         <!-- NOTE: As of Chrome 129, we can trick it by hiding the LCP element behind a transparent element -->
         <!-- <div class="overlay"></div> -->
